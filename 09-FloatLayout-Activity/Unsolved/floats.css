@@ -8,35 +8,74 @@
 }
 
 body {
+  font-size: 24px;
+  line-height: 32px;
+  color: #333
 }
 
 header {
   padding: 20px;
   margin-bottom: 20px;
   color: #333;
-  background: #ccc;
+  background: #ffa500;
 }
 
 section {
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  background: #ffa500
 }
 
 #left {
+  color: white;
+  float: left;
+  background-color: teal;
+  width: 33.3%;
 }
 
 #middle {
+  color: white;
+  float: left;
+  background-color: red;
+  width: 33%;
 }
 
 #right {
+  color: white;
+  float: left;
+  background-color: teal;
+  width: 33%;
 }
 
 #full {
+  float: center;
+  background-color: #394549;
+  width: 100%;
+  overflow: auto;
+  clear: both
 }
 
 #division {
+  padding: 20px;
+  margin-top: 20px;
+  background: #214fb3
 }
 
 aside {
+  color: #ffffff;
+  float: left;
+  background-color: yellow;
+  width: 33%;
+  height: 200px;
+  margin-left: 30px;
+  border: 1px solid #eee;
+  text-decoration-color: white;
+
 }
 
 footer {
+  background-color: #ffa500;
+  padding: 20px;
+  clear: both;
 }
