@@ -24,35 +24,37 @@ section {
     background: #eeeeee;
     text-align: center;
     height: 300px;
-    width: 48%;
-    box-sizing: border-box;
+    min-width: 47%;
+    max-width: 47%;
+    /* box-sizing: border-box; */
     position: relative;
     left: 10px;
-    overflow: hidden;
-    margin: auto;
+    margin-bottom: 20px;
 }
 
 article {
-    float: left;
-    position: relative;
+    /* float: left; */
+    position: absolute;
     background: darkgray;
-    left: -660px;
-    top: 25px;
-    margin: auto;
+    left: 28px;
+    top: 296px;
+    /* margin: auto; */
     text-align: center;
     color: white;
-    width: 40%;
+    min-width: 42%;
+    max-width: 42%;
     height: 250px;
-    overflow: auto;
+    /* overflow: auto; */
 }
 
 #p1 {
     float: left;
     position: absolute;
     background: white;
-    left: 97px;
+    left: 35px;
     top: 350px;
-    width: 39%;
+    min-width: 39%;
+    max-width: 39%;
     text-align: center;
     height: 65px;
     overflow: hidden;
@@ -64,9 +66,10 @@ article {
     float: left;
     position: absolute;
     background: white;
-    left: 97px;
+    left: 35px;
     top: 418px;
-    width: 39%;
+    min-width: 39%;
+    max-width: 39%;
     text-align: center;
     height: 65px;
     overflow: hidden;
@@ -82,12 +85,15 @@ article {
     background: #eeeeee;
     text-align: center;
     height: 300px;
-    width: 48%;
-    box-sizing: border-box;
+    /* box-sizing: border-box; */
     position: absolute;
-    left: 780px;
-    top: 255px;
-    margin: auto;
+    /* left: 300px; */
+    top: 254px;
+    /* margin: auto; */
+    min-width: 47%;
+    max-width: 47%;
+    /* bottom: 0; */
+    right: 10px;
 
 
 }
@@ -99,7 +105,7 @@ article {
     width: 100%;
     background-color: #eeeeee;
     text-align: center;
-    height: 25%;
+    height: 100px;
 
 }
 
